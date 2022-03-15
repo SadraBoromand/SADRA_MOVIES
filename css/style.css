@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'FontG';
+    font-style: normal;
+    src: url("../fonts/Product\ Sans\ Regular.woff") format("woff2"), url("../fonts/Product\ Sans\ Regular.ttf") format("truetype");
+}
+
+@media (min-width: 576px) {
+    .navbar-display{
+        display: block;
+    }
+  }
+
+.movies-list{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.bg-gray{
+    background-color: #212121;
+    color: white;
+}
+
+.text-red{
+    color: red;
+}
+
+body{
+    font-family: 'FontG';
+    background-color: #000;
+    color: white;
+}
+
+.sidebar{
+    background-color: #212121;
+    height: 100vh;
+}
+
+.nav-pills .nav-link{
+    color: gray;
+}
+
+.nav-pills .nav-link:hover{
+    color: white;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: red;
+    border-radius:13px ;
+}
+
+.nav-link-active {
+    color: white!important;
+    background-color: red;
+    border-radius:13px ;
+}
+
+.img-border{
+    border-radius:13px ;
+    border: 3px solid #212121;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: gray;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.collapse .navbar-collapse{
+    height: 100vh;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.box-shadow{
+    border-radius: 20px;
+    box-shadow: 0 0 8px 1px gray;
+}
+
+.btn-see{
+    background-color: #212121;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 1px gray;
+    transition: ease .5s;
+}
+
+.btn-see:hover{
+    transition: ease .5s;
+    background-color: red;
+    box-shadow: 0 0 8px 1px gray;
+}
+
+.uk-input{
+    background-color: #212121;
+    border: 1px solid #212121;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 1px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.uk-input:focus{
+    background-color: #212121;
+    box-shadow: 0 0 8px 1px gray!important;
+    border-color: #212121;
+    color: white;
+}
